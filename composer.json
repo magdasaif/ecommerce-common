@@ -1,0 +1,20 @@
+{
+    "name": "murabba/ecommerce",
+    "description": "Common library for e-commerce project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Murabba dev",
+        "email": "magdasaif3@gmail.com"
+    }],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^8.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Murabba\\Ecommerce\\Common\\": "src/"
+        }
+    }
+}
